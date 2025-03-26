@@ -11,7 +11,7 @@ function App() {
     <>
       <h1 className='bg-green-600 text-black p-6 rounded-2xl'>Tailwind</h1>
       
-      <Card />
+      <Card channel="chai aur code "/>
       <Card />
 
       

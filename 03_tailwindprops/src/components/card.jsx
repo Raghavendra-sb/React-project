@@ -1,7 +1,9 @@
 import React from 'react'
 
-function Card() {
+function Card(props) {
+  console.log("props",props)
   return (
+     
     <div>
           <div className="flex flex-col rounded-xl  p-4 mb-4"
         style={{
