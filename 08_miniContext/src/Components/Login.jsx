@@ -5,10 +5,11 @@ function Login() {
 
     const[username, setUsername] = useState('')
     const[password,setPassword] = useState('')
+//in this wht im excatly doing is im using the useContext hook to access the UserContext and update the user information in the state by setUser function
 
     const {setUser} = useContext(UserContext)
     const handleSubmit=(e)=>{
-           e.preventDefault()
+           e.preventDefault()//why preventDefault is used? because we don't want the page to reload on form submission 
            setUser({username,password})
     }
   return (

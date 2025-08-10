@@ -34,7 +34,7 @@ function App() {
     <>
       <h1>Counter App</h1>
       <h2>counter value : {count} </h2>
-      <button onClick={addValue}>up</button>
+      <button onClick={addValue}>up</button> //why addValue not addValue()? because we are passing the function reference, not calling it immediately
       <button onClick={devValue}>down</button>
     </>
   )
