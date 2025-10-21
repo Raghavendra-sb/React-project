@@ -11,8 +11,8 @@ function App() {
   return (
     <UserContextProvider>
    <h1>Context API</h1>
-   <Login/>
-   <Profile/>
+      <Login/>
+      <Profile/>
     </UserContextProvider>
   )
 }
